@@ -1,0 +1,30 @@
+# notebook (repo-relative) :: literal :: why it need not exist in the repository
+modules/01_introduction_to_rag/notebooks/04_rag_lifecycle_and_baseline.ipynb :: Transformer.pdf :: resolved at runtime by rag_paths.asset() from data/sample/
+modules/01_introduction_to_rag/notebooks/04_rag_lifecycle_and_baseline.ipynb :: bella_vista.txt :: resolved at runtime by rag_paths.asset() from data/sample/
+modules/01_introduction_to_rag/notebooks/04_rag_lifecycle_and_baseline.ipynb :: python_facts.txt :: source label passed as metadata, not a file
+modules/02_document_loading/notebooks/01_document_loading_and_metadata.ipynb :: Intel Strategy.docx :: resolved at runtime by rag_paths.asset() from data/sample/
+modules/02_document_loading/notebooks/01_document_loading_and_metadata.ipynb :: chat_data.json :: resolved at runtime by rag_paths.asset() from data/sample/
+modules/02_document_loading/notebooks/01_document_loading_and_metadata.ipynb :: data.csv :: resolved at runtime by rag_paths.asset() from data/sample/
+modules/02_document_loading/notebooks/01_document_loading_and_metadata.ipynb :: dummy.txt :: resolved at runtime by rag_paths.asset() from data/sample/
+modules/02_document_loading/notebooks/01_document_loading_and_metadata.ipynb :: facebook_chat_messages.jsonl :: resolved at runtime by rag_paths.asset() from data/sample/
+modules/02_document_loading/notebooks/01_document_loading_and_metadata.ipynb :: layoutparser_paper.pdf :: resolved at runtime by rag_paths.asset() from data/sample/
+modules/02_document_loading/notebooks/05_json_loader.ipynb :: image_of_the_item.jpg :: value inside sample JSON written by the notebook, not a file
+modules/02_document_loading/notebooks/05_json_loader.ipynb :: image_of_the_meeting.jpg :: value inside sample JSON written by the notebook, not a file
+modules/02_document_loading/notebooks/12_custom_loader.ipynb :: ./meow.txt :: the notebook writes this file before loading it
+modules/02_document_loading/notebooks/13_document_loaders_overview.ipynb :: manual_creation.txt :: source label passed as metadata, not a file
+modules/03_chunking/notebooks/01_document_splitting_and_chunking.ipynb :: dummy.txt :: resolved at runtime by rag_paths.asset() from data/sample/
+modules/03_chunking/notebooks/01_document_splitting_and_chunking.ipynb :: layoutparser_paper.pdf :: resolved at runtime by rag_paths.asset() from data/sample/
+modules/03_chunking/notebooks/04_semantic_chunking.ipynb :: Understanding_Climate_Change.pdf :: resolved at runtime by rag_paths.asset() from data/sample/rag_techniques/
+modules/03_chunking/notebooks/04_semantic_chunking.ipynb :: langchain_intro.txt :: resolved at runtime by rag_paths.asset() from modules/03_chunking/assets/
+modules/03_chunking/notebooks/07_proposition_chunking.ipynb :: hubble.txt :: source label passed as metadata, not a file
+modules/07_retrievers_and_hybrid_search/notebooks/07_advanced_retriever_patterns.ipynb :: acme_company_overview.pdf :: source label passed as metadata, not a file
+modules/07_retrievers_and_hybrid_search/notebooks/07_advanced_retriever_patterns.ipynb :: ai_agents_guide.md :: source label passed as metadata, not a file
+modules/07_retrievers_and_hybrid_search/notebooks/07_advanced_retriever_patterns.ipynb :: technical_docs_v2.4.pdf :: source label passed as metadata, not a file
+modules/08_query_transformation/notebooks/11_hyde_walkthrough.ipynb :: output/steve_jobs_for_hyde.db :: Chroma persist directory the notebook creates (git-ignored)
+modules/10_building_rag_systems/notebooks/08_structured_data_rag.ipynb :: data.csv :: resolved at runtime by rag_paths.asset() from data/sample/
+modules/10_building_rag_systems/notebooks/11_ai_research_assistant.ipynb :: attention_mechanisms.pdf :: source label passed as metadata, not a file
+modules/10_building_rag_systems/notebooks/11_ai_research_assistant.ipynb :: langchain_docs.md :: source label passed as metadata, not a file
+modules/10_building_rag_systems/notebooks/11_ai_research_assistant.ipynb :: rag_survey.pdf :: source label passed as metadata, not a file
+modules/11_multimodal_rag/notebooks/03_multimodal_rag_with_colpali.ipynb :: image.jpg :: the notebook writes this page image before displaying it
+modules/12_langchain_rag_implementations/notebooks/01_filtered_search_pgvector.ipynb :: reviews.txt :: source label passed as metadata, not a file
+modules/12_langchain_rag_implementations/notebooks/01_filtered_search_pgvector.ipynb :: sakura_garden.txt :: source label passed as metadata, not a file

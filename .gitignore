@@ -1,0 +1,46 @@
+# Environments and secrets
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python / tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local runtime state notebooks may create (vector stores, checkpoints, outputs)
+chroma_db/
+.chroma/
+*.sqlite3-journal
+outputs/
+runs/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Files and stores the notebooks in this repository create at run time
+modules/*/notebooks/output/
+modules/*/notebooks/my_db/
+modules/*/notebooks/my_context_db/
+modules/*/notebooks/faiss_index/
+modules/*/notebooks/research_db/
+modules/*/notebooks/data/
+modules/*/notebooks/extracted_images/
+modules/*/vector_stores/
+modules/*/notebooks/RAG_TECHNIQUES/
+modules/*/notebooks/RAG_Techniques/
+modules/02_document_loading/notebooks/meow.txt
+modules/11_multimodal_rag/notebooks/image.jpg
+modules/11_multimodal_rag/notebooks/1706.03762
+apikeys.yml
