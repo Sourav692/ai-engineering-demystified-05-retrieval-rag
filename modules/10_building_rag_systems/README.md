@@ -28,7 +28,7 @@ Runnable script companions in `notebooks/`: `simple_rag.py`, `explainable_retrie
   (`vendors` group) and downloads a public Nobel-prize JSON file.
 - `11_ai_research_assistant.ipynb` is the module lab. It keeps a per-session chat history so the
   assistant can answer follow-ups; durable and long-term memory are taught in
-  repository 08 (advanced agent systems, not yet published).
+  [repository 08 (advanced agent systems)](https://github.com/Sourav692/ai-engineering-demystified-08-advanced-agent-systems).
 - `simple_rag.py` and `explainable_retrieval.py` are runnable script versions of the anthology notebooks.
 
 ## Sources

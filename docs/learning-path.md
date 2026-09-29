@@ -11,8 +11,8 @@ The course is a sequence of self-contained repositories. Each owns one topic, li
 | 05 | [ai-engineering-demystified-05-retrieval-rag](https://github.com/Sourav692/ai-engineering-demystified-05-retrieval-rag) | Loading, chunking, embeddings, vector stores, standard RAG | ✅ Available |
 | 06 | [ai-engineering-demystified-06-agent-fundamentals](https://github.com/Sourav692/ai-engineering-demystified-06-agent-fundamentals) | Agent loop, tools, ReAct, planning, reflection, workflow patterns | ✅ Available |
 | 07 | [ai-engineering-demystified-07-first-party-agent-sdks](https://github.com/Sourav692/ai-engineering-demystified-07-first-party-agent-sdks) | OpenAI Agents SDK, Anthropic Agent SDK, Google ADK | ✅ Available |
-| 08 | ai-engineering-demystified-08-advanced-agent-systems | Memory, multi-agent systems, deep agents, harnesses | 🚧 Not yet created |
-| 09 | ai-engineering-demystified-09-advanced-rag | Agentic, corrective, adaptive, self and graph RAG | 🚧 Not yet created |
+| 08 | [ai-engineering-demystified-08-advanced-agent-systems](https://github.com/Sourav692/ai-engineering-demystified-08-advanced-agent-systems) | Memory, multi-agent systems, deep agents, harnesses | ✅ Available |
+| 09 | [ai-engineering-demystified-09-advanced-rag](https://github.com/Sourav692/ai-engineering-demystified-09-advanced-rag) | Agentic, corrective, adaptive, self and graph RAG | ✅ Available |
 | 10 | ai-engineering-demystified-10-agent-protocols | MCP, A2A, ACP | 🚧 Not yet created |
 | 11 | ai-engineering-demystified-11-alternative-agent-frameworks | CrewAI, AutoGen, DSPy, PydanticAI | 🚧 Not yet created |
 | 12 | ai-engineering-demystified-12-ai-coding-tools | Claude Code, coding-agent CLIs, agent skills | 🚧 Not yet created |

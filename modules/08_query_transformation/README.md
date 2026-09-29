@@ -30,7 +30,7 @@ Runnable script companions in `notebooks/`: `query_transformations.py`, `HyDe_Hy
 - Overlapping walkthroughs are kept side by side: 01/12/13 (multi-query), 04/11/15 (HyDE),
   05/10 (decomposition), 03/14 (step-back and rewriting). 13 is 12 plus a few extra HyDE cells.
 - Routing here (06, 07) sends a query to a specialist *prompt*; routing between retrieval, web search and
-  no retrieval is adaptive RAG and belongs to repository 09 (advanced RAG, not yet published).
+  no retrieval is adaptive RAG and belongs to [repository 09 (advanced RAG)](https://github.com/Sourav692/ai-engineering-demystified-09-advanced-rag).
 
 ## Sources
 
