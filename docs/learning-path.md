@@ -13,8 +13,8 @@ The course is a sequence of self-contained repositories. Each owns one topic, li
 | 07 | [ai-engineering-demystified-07-first-party-agent-sdks](https://github.com/Sourav692/ai-engineering-demystified-07-first-party-agent-sdks) | OpenAI Agents SDK, Anthropic Agent SDK, Google ADK | ✅ Available |
 | 08 | [ai-engineering-demystified-08-advanced-agent-systems](https://github.com/Sourav692/ai-engineering-demystified-08-advanced-agent-systems) | Memory, multi-agent systems, deep agents, harnesses | ✅ Available |
 | 09 | [ai-engineering-demystified-09-advanced-rag](https://github.com/Sourav692/ai-engineering-demystified-09-advanced-rag) | Agentic, corrective, adaptive, self and graph RAG | ✅ Available |
-| 10 | ai-engineering-demystified-10-agent-protocols | MCP, A2A, ACP | 🚧 Not yet created |
-| 11 | ai-engineering-demystified-11-alternative-agent-frameworks | CrewAI, AutoGen, DSPy, PydanticAI | 🚧 Not yet created |
+| 10 | [ai-engineering-demystified-10-agent-protocols](https://github.com/Sourav692/ai-engineering-demystified-10-agent-protocols) | MCP, A2A, ACP | ✅ Available |
+| 11 | [ai-engineering-demystified-11-alternative-agent-frameworks](https://github.com/Sourav692/ai-engineering-demystified-11-alternative-agent-frameworks) | CrewAI, AutoGen, DSPy, PydanticAI | ✅ Available |
 | 12 | ai-engineering-demystified-12-ai-coding-tools | Claude Code, coding-agent CLIs, agent skills | 🚧 Not yet created |
 | 13 | ai-engineering-demystified-13-production-observability | Tracing, cost, caching, safety, deployment | 🚧 Not yet created |
 | 14 | ai-engineering-demystified-14-projects | All 18 applications and capstones, in three groups | 🚧 Not yet created |
