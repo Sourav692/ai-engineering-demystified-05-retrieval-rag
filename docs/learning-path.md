@@ -16,8 +16,8 @@ The course is a sequence of self-contained repositories. Each owns one topic, li
 | 10 | [ai-engineering-demystified-10-agent-protocols](https://github.com/Sourav692/ai-engineering-demystified-10-agent-protocols) | MCP, A2A, ACP | ✅ Available |
 | 11 | [ai-engineering-demystified-11-alternative-agent-frameworks](https://github.com/Sourav692/ai-engineering-demystified-11-alternative-agent-frameworks) | CrewAI, AutoGen, DSPy, PydanticAI | ✅ Available |
 | 12 | ai-engineering-demystified-12-ai-coding-tools | Claude Code, coding-agent CLIs, agent skills | 🚧 Not yet created |
-| 13 | ai-engineering-demystified-13-production-observability | Tracing, cost, caching, safety, deployment | 🚧 Not yet created |
-| 14 | ai-engineering-demystified-14-projects | All 18 applications and capstones, in three groups | 🚧 Not yet created |
+| 13 | [ai-engineering-demystified-13-production-observability](https://github.com/Sourav692/ai-engineering-demystified-13-production-observability) | Tracing, cost, caching, safety, deployment | ✅ Available |
+| 14 | [ai-engineering-demystified-14-projects](https://github.com/Sourav692/ai-engineering-demystified-14-projects) | All 18 applications and capstones, in three groups | ✅ Available |
 
 Until a repository marked 🚧 exists, its material is still in the source monorepo, [`AI-ENGINEERING-DEMYSTIFIED`](https://github.com/Sourav692/AI-ENGINEERING-DEMYSTIFIED) (frozen at tag `pre-multirepo-split-2026-09` for this split).
 

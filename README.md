@@ -93,7 +93,7 @@ All names are in [.env.example](.env.example) with a comment saying what uses ea
 - Agentic, corrective, adaptive and self-RAG, retrieval grading loops, RAG as an agent tool, GraphRAG/knowledge graphs, RAPTOR and other advanced retrieval architectures — [repository 09 (advanced RAG)](https://github.com/Sourav692/ai-engineering-demystified-09-advanced-rag).
 - Tool calling and the agent loop — [repository 06 (agent fundamentals)](https://github.com/Sourav692/ai-engineering-demystified-06-agent-fundamentals).
 - Durable conversation and long-term memory — [repository 08 (advanced agent systems)](https://github.com/Sourav692/ai-engineering-demystified-08-advanced-agent-systems).
-- Serving RAG behind an API, tracing, cost control and other production concerns — repository 13 (production and observability, not yet published).
+- Serving RAG behind an API, tracing, cost control and other production concerns — [repository 13 (production and observability)](https://github.com/Sourav692/ai-engineering-demystified-13-production-observability).
 - Measuring RAG quality — the separate `Agent_Evaluation_Demystified` repository.
 
 ## Licence and acknowledgements
