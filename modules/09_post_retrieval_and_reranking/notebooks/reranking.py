@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from langchain_core.documents import Document
 from typing import List, Any
 from langchain_openai import ChatOpenAI
-from langchain.chains import RetrievalQA
+from langchain_classic.chains import RetrievalQA
 from langchain_core.retrievers import BaseRetriever
 from sentence_transformers import CrossEncoder
 from pydantic import BaseModel, Field

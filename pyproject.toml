@@ -49,6 +49,8 @@ dependencies = [
     "requests>=2.34.2",
     "rich>=14.3.4",
     "tqdm>=4.70.0",
+    "aied-helpers",  # shared course LLM factory (pinned tag in [tool.uv.sources])
+    "ddgs>=9.0",  # backend of DuckDuckGoSearchAPIWrapper (08_query_transformation/03)
 ]
 
 [dependency-groups]
@@ -65,6 +67,7 @@ hf = [
 # cannot be installed together with `hf`: uv sync --no-default-groups --group dev --group colpali
 colpali = [
     "byaldi>=0.0.7",
+    "google-generativeai>=0.8.6",  # Gemini answer step of the ColPali notebook
     "pillow>=11.0",
 ]
 # Unstructured-based loaders and NLP splitters (large download)
@@ -72,12 +75,14 @@ document-parsing = [
     "unstructured[md,pdf,docx]>=0.27.5",
     "nltk>=3.9",
     "spacy>=3.8",
+    "en-core-web-sm",  # spaCy model for 03_chunking/02; uv venvs have no pip for `spacy download`
 ]
 # LlamaIndex implementations (module 13 and 03/10_choose_chunk_size_llamaindex)
 llamaindex = [
     "llama-index>=0.14",
     "llama-index-vector-stores-faiss>=0.5",
     "llama-index-readers-file>=0.5",
+    "llama-index-retrievers-bm25>=0.5",  # BM25Retriever (llama_index.legacy was removed)
 ]
 # Managed vector stores and third-party model APIs
 vendors = [
@@ -96,6 +101,10 @@ databricks = [
 [tool.uv]
 default-groups = ["dev"]
 conflicts = [[{ group = "hf" }, { group = "colpali" }]]
+
+[tool.uv.sources]
+aied-helpers = { git = "https://github.com/Sourav692/ai-engineering-demystified-shared.git", rev = "v0.1.0" }
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
 
 [build-system]
 requires = ["hatchling"]

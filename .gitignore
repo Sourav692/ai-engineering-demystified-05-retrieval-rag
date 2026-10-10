@@ -44,3 +44,6 @@ modules/02_document_loading/notebooks/meow.txt
 modules/11_multimodal_rag/notebooks/image.jpg
 modules/11_multimodal_rag/notebooks/1706.03762
 apikeys.yml
+
+# Local cleanup tracker (aied-course-cleanup); never committed
+.tracker/
