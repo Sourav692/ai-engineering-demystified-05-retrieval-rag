@@ -3,9 +3,9 @@ import sys
 import time
 import argparse
 from dotenv import load_dotenv
-from langchain.retrievers.document_compressors import LLMChainExtractor
-from langchain.retrievers import ContextualCompressionRetriever
-from langchain.chains import RetrievalQA
+from langchain_classic.retrievers.document_compressors import LLMChainExtractor
+from langchain_classic.retrievers import ContextualCompressionRetriever
+from langchain_classic.chains import RetrievalQA
 from helper_functions import *
 from evaluation.evalute_rag import *
 

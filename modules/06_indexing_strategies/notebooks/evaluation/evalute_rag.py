@@ -22,6 +22,11 @@ from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+from dotenv import find_dotenv, load_dotenv
+
+# The deepeval metrics below need OPENAI_API_KEY when this module is imported,
+# so load the repo-root .env before they are built.
+load_dotenv(find_dotenv(usecwd=True))
 
 # 09/15/24 kimmeyh Added path where helper functions is located to the path
 # Add the parent directory to the path since we work with notebooks
